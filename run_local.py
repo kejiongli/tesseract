@@ -61,17 +61,40 @@ def iterate_lines(img):
     with PyTessBaseAPI(psm=PSM.AUTO, oem=OEM.LSTM_ONLY) as api:
         api.SetImageFile(img)
         text = api.GetUTF8Text()
-        data = {'text': text, 'lines': []}
+        data = {'status': 'Succeed', 'recognitionResult': {'lines': []}}
         api.Recognize()
         ri = api.GetIterator()
         level = RIL.TEXTLINE
         for r in iterate_level(ri, level):
             line = r.GetUTF8Text(level)
+
+            if line.isspace():
+                continue
+
             conf = r.Confidence(level)
             bbox = r.BoundingBox(level)
-            print(conf, line, bbox)
-            data['lines'].append({'text': line, 'bbox': bbox})
+            boundingBox = convert_boundingBox(bbox)
+
+            generate_word_segement(line, bbox)
+
+            data['recognitionResult']['lines'].append({'text': line, 'boundingBox': boundingBox})
+
         return data
+
+
+def convert_boundingBox(bbox):
+    top_left_x = bottom_left_x = bbox[0]
+    top_left_y = top_right_y = bbox[1]
+    bottom_right_x = top_right_x = bbox[2]
+    bottom_left_y = bottom_right_y = bbox[3]
+
+    return [top_left_x,top_left_y, top_right_x, top_right_y, bottom_right_x, bottom_right_y, bottom_left_x, bottom_left_y]
+
+
+def generate_word_segement(line, bbox):
+    char_len = len(list(line))
+    line_box_len = bbox[3]-bbox[0] #w-x
+    char_ space = int(line_box_len/char_len)
 
 
 if __name__ == '__main__':
@@ -85,8 +108,8 @@ if __name__ == '__main__':
 
             data = iterate_lines(img)
 
-            with open(os.path.join(odir, 'all_lines.json'), 'w') as f:
-                json.dump(data, f, indent=4)
+            with open(os.path.join(odir, 'all_lines.json'), 'w', encoding='utf-8') as f:
+                json.dump(data, f, indent=4, ensure_ascii=False)
 
             break
 
