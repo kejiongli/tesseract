@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d47af52b-7a49-42a9-a939-36c165e2c453" name="Default Changelist" comment="" />
+    <list default="true" id="d47af52b-7a49-42a9-a939-36c165e2c453" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytersseract-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocr-results/ocr-Image1.png.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocr-results/ocr-Image2.png.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_local.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_local.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tesseract.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tesseract.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +38,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1WJSHS4tIp1gDR5zR7iUKgyLFvX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -34,16 +46,41 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ocr-results" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/raw-imgs" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\chaon\Projects\IdeaProjects\tesseract\ocr-results" />
       <recent name="C:\Users\chaon\Projects\IdeaProjects\tesseract\raw-imgs" />
+      <recent name="C:\Users\chaon\Projects\IdeaProjects\tesseract\ocr-results" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.run_local">
+    <configuration name="pytersseract-test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tesseract" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytersseract-test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="run_local" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="tesseract" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,37 +131,96 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2423" height="494" key="GridCell.Tab.0.bottom" timestamp="1578867685492">
+    <state x="654" y="363" key="#Vim_Emulation" timestamp="1579044306152">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state x="654" y="363" key="#Vim_Emulation/0.0.2560.1409/-3840.0.2560.1409@0.0.2560.1409" timestamp="1579044306152" />
+    <state x="550" y="366" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578953093195">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state x="550" y="366" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1409/-3840.0.2560.1409@0.0.2560.1409" timestamp="1578953093195" />
+    <state x="498" y="326" key="#pytersseract-test" timestamp="1579031716693">
       <screen x="93" y="0" width="2467" height="1440" />
     </state>
-    <state width="2423" height="494" key="GridCell.Tab.0.bottom/93.0.2467.1440/-3840.0.2560.1409@93.0.2467.1440" timestamp="1578867685492" />
-    <state width="2423" height="494" key="GridCell.Tab.0.center" timestamp="1578867685492">
+    <state x="498" y="326" key="#pytersseract-test/93.0.2467.1440/-3840.0.2560.1409@93.0.2467.1440" timestamp="1579031716693" />
+    <state x="498" y="326" key="#run_local" timestamp="1579031724105">
       <screen x="93" y="0" width="2467" height="1440" />
     </state>
-    <state width="2423" height="494" key="GridCell.Tab.0.center/93.0.2467.1440/-3840.0.2560.1409@93.0.2467.1440" timestamp="1578867685492" />
-    <state width="2423" height="494" key="GridCell.Tab.0.left" timestamp="1578867685492">
-      <screen x="93" y="0" width="2467" height="1440" />
+    <state x="498" y="326" key="#run_local/93.0.2467.1440/-3840.0.2560.1409@93.0.2467.1440" timestamp="1579031724105" />
+    <state x="1034" y="463" key="FileChooserDialogImpl" timestamp="1579044364794">
+      <screen x="0" y="0" width="2560" height="1409" />
     </state>
-    <state width="2423" height="494" key="GridCell.Tab.0.left/93.0.2467.1440/-3840.0.2560.1409@93.0.2467.1440" timestamp="1578867685492" />
-    <state width="2423" height="494" key="GridCell.Tab.0.right" timestamp="1578867685492">
-      <screen x="93" y="0" width="2467" height="1440" />
+    <state x="1034" y="463" key="FileChooserDialogImpl/0.0.2560.1409/-3840.0.2560.1409@0.0.2560.1409" timestamp="1579044364794" />
+    <state x="1089" y="473" key="FileChooserDialogImpl/93.0.2467.1440/-3840.0.2560.1409@93.0.2467.1440" timestamp="1578961725285" />
+    <state width="1142" height="400" key="GridCell.Tab.0.bottom" timestamp="1579048349235">
+      <screen x="0" y="0" width="2560" height="1409" />
     </state>
-    <state width="2423" height="494" key="GridCell.Tab.0.right/93.0.2467.1440/-3840.0.2560.1409@93.0.2467.1440" timestamp="1578867685492" />
-    <state width="1358" height="483" key="GridCell.Tab.1.bottom" timestamp="1578866504828">
-      <screen x="93" y="0" width="2467" height="1440" />
+    <state width="1142" height="400" key="GridCell.Tab.0.bottom/0.0.2560.1409/-3840.0.2560.1409@0.0.2560.1409" timestamp="1579048349235" />
+    <state width="2516" height="374" key="GridCell.Tab.0.bottom/93.0.2467.1440/-3840.0.2560.1409@-3840.0.2560.1409" timestamp="1579030308599" />
+    <state width="1357" height="470" key="GridCell.Tab.0.bottom/93.0.2467.1440/-3840.0.2560.1409@93.0.2467.1440" timestamp="1579043367895" />
+    <state width="1142" height="400" key="GridCell.Tab.0.center" timestamp="1579048349235">
+      <screen x="0" y="0" width="2560" height="1409" />
     </state>
-    <state width="1358" height="483" key="GridCell.Tab.1.bottom/93.0.2467.1440/-3840.0.2560.1409@93.0.2467.1440" timestamp="1578866504828" />
-    <state width="1358" height="483" key="GridCell.Tab.1.center" timestamp="1578866504828">
-      <screen x="93" y="0" width="2467" height="1440" />
+    <state width="1142" height="400" key="GridCell.Tab.0.center/0.0.2560.1409/-3840.0.2560.1409@0.0.2560.1409" timestamp="1579048349235" />
+    <state width="2516" height="374" key="GridCell.Tab.0.center/93.0.2467.1440/-3840.0.2560.1409@-3840.0.2560.1409" timestamp="1579030308599" />
+    <state width="1357" height="470" key="GridCell.Tab.0.center/93.0.2467.1440/-3840.0.2560.1409@93.0.2467.1440" timestamp="1579043367895" />
+    <state width="1142" height="400" key="GridCell.Tab.0.left" timestamp="1579048349235">
+      <screen x="0" y="0" width="2560" height="1409" />
     </state>
-    <state width="1358" height="483" key="GridCell.Tab.1.center/93.0.2467.1440/-3840.0.2560.1409@93.0.2467.1440" timestamp="1578866504828" />
-    <state width="1358" height="483" key="GridCell.Tab.1.left" timestamp="1578866504828">
-      <screen x="93" y="0" width="2467" height="1440" />
+    <state width="1142" height="400" key="GridCell.Tab.0.left/0.0.2560.1409/-3840.0.2560.1409@0.0.2560.1409" timestamp="1579048349235" />
+    <state width="2516" height="374" key="GridCell.Tab.0.left/93.0.2467.1440/-3840.0.2560.1409@-3840.0.2560.1409" timestamp="1579030308599" />
+    <state width="1357" height="470" key="GridCell.Tab.0.left/93.0.2467.1440/-3840.0.2560.1409@93.0.2467.1440" timestamp="1579043367894" />
+    <state width="1142" height="400" key="GridCell.Tab.0.right" timestamp="1579048349235">
+      <screen x="0" y="0" width="2560" height="1409" />
     </state>
-    <state width="1358" height="483" key="GridCell.Tab.1.left/93.0.2467.1440/-3840.0.2560.1409@93.0.2467.1440" timestamp="1578866504828" />
-    <state width="1358" height="483" key="GridCell.Tab.1.right" timestamp="1578866504828">
-      <screen x="93" y="0" width="2467" height="1440" />
+    <state width="1142" height="400" key="GridCell.Tab.0.right/0.0.2560.1409/-3840.0.2560.1409@0.0.2560.1409" timestamp="1579048349235" />
+    <state width="2516" height="374" key="GridCell.Tab.0.right/93.0.2467.1440/-3840.0.2560.1409@-3840.0.2560.1409" timestamp="1579030308599" />
+    <state width="1357" height="470" key="GridCell.Tab.0.right/93.0.2467.1440/-3840.0.2560.1409@93.0.2467.1440" timestamp="1579043367895" />
+    <state width="1142" height="492" key="GridCell.Tab.1.bottom" timestamp="1579046897072">
+      <screen x="0" y="0" width="2560" height="1409" />
     </state>
-    <state width="1358" height="483" key="GridCell.Tab.1.right/93.0.2467.1440/-3840.0.2560.1409@93.0.2467.1440" timestamp="1578866504828" />
+    <state width="1142" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1409/-3840.0.2560.1409@0.0.2560.1409" timestamp="1579046897072" />
+    <state width="1357" height="470" key="GridCell.Tab.1.bottom/93.0.2467.1440/-3840.0.2560.1409@93.0.2467.1440" timestamp="1579043367895" />
+    <state width="1142" height="492" key="GridCell.Tab.1.center" timestamp="1579046897071">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="1142" height="492" key="GridCell.Tab.1.center/0.0.2560.1409/-3840.0.2560.1409@0.0.2560.1409" timestamp="1579046897071" />
+    <state width="1357" height="470" key="GridCell.Tab.1.center/93.0.2467.1440/-3840.0.2560.1409@93.0.2467.1440" timestamp="1579043367895" />
+    <state width="1142" height="492" key="GridCell.Tab.1.left" timestamp="1579046897071">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="1142" height="492" key="GridCell.Tab.1.left/0.0.2560.1409/-3840.0.2560.1409@0.0.2560.1409" timestamp="1579046897071" />
+    <state width="1357" height="470" key="GridCell.Tab.1.left/93.0.2467.1440/-3840.0.2560.1409@93.0.2467.1440" timestamp="1579043367895" />
+    <state width="1142" height="492" key="GridCell.Tab.1.right" timestamp="1579046897072">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="1142" height="492" key="GridCell.Tab.1.right/0.0.2560.1409/-3840.0.2560.1409@0.0.2560.1409" timestamp="1579046897072" />
+    <state width="1357" height="470" key="GridCell.Tab.1.right/93.0.2467.1440/-3840.0.2560.1409@93.0.2467.1440" timestamp="1579043367895" />
+    <state x="723" y="287" key="SettingsEditor" timestamp="1579048346796">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state x="723" y="287" key="SettingsEditor/0.0.2560.1409/-3840.0.2560.1409@0.0.2560.1409" timestamp="1579048346796" />
+    <state x="790" y="293" key="SettingsEditor/93.0.2467.1440/-3840.0.2560.1409@93.0.2467.1440" timestamp="1578961736629" />
+    <state x="938" y="532" key="com.intellij.ide.util.TipDialog" timestamp="1579043814536">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state x="938" y="532" key="com.intellij.ide.util.TipDialog/0.0.2560.1409/-3840.0.2560.1409@0.0.2560.1409" timestamp="1579043814536" />
+    <state x="-2902" y="532" key="com.intellij.ide.util.TipDialog/93.0.2467.1440/-3840.0.2560.1409@-3840.0.2560.1409" timestamp="1579029998367" />
+    <state x="997" y="544" key="com.intellij.ide.util.TipDialog/93.0.2467.1440/-3840.0.2560.1409@93.0.2467.1440" timestamp="1578961282004" />
+    <state x="724" y="321" width="672" height="678" key="search.everywhere.popup" timestamp="1579047333523">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state x="724" y="321" width="672" height="678" key="search.everywhere.popup/0.0.2560.1409/-3840.0.2560.1409@0.0.2560.1409" timestamp="1579047333523" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
