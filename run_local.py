@@ -91,10 +91,10 @@ def convert_boundingBox(bbox):
     return [top_left_x,top_left_y, top_right_x, top_right_y, bottom_right_x, bottom_right_y, bottom_left_x, bottom_left_y]
 
 
-def generate_word_segement(line, bbox):
-    char_len = len(list(line))
-    line_box_len = bbox[3]-bbox[0] #w-x
-    char_ space = int(line_box_len/char_len)
+# def generate_word_segement(line, bbox):
+#     char_len = len(list(line))
+#     line_box_len = bbox[3]-bbox[0] #w-x
+#     char_ space = int(line_box_len/char_len)
 
 
 if __name__ == '__main__':
